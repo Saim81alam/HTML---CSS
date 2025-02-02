@@ -1,0 +1,371 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    overflow-x: hidden;
+    background-color: #282828;
+}
+.cursure{
+    cursor: pointer;
+}
+.border{
+    border: none;
+}
+.border:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+/* navbar  */
+
+/* navbar  */
+
+.nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    background-color: rgba(0, 0, 0, 0.187);
+    
+  }
+  
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: 800;
+    align-content: flex-start;
+    color: white;
+  }
+  .nav-logo h3{
+    font-size: 2rem;
+  }
+  .nav-logo h3 span{
+    color: chocolate;
+  }
+  .nav-logo i{
+    font-size: 3rem;
+    color: chocolate;
+  }
+  
+  .button-cont{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .btn {
+    height: 20%;
+    background-color: #0000;
+    border: none;
+    outline: 0;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  .btn a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* .btn:hover {
+    background-color: #039c60;
+  } */
+  .join-btn{
+    width: 10%;
+    background-color: #f79631;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+  
+  }
+  .join-btn a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+  }
+  .join-btn:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .burger-menu {
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+    display: none;
+  }
+  
+  .dropdown-content {
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #0303037d;
+    color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+  }
+  
+  .dropdown-content button {
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+
+
+  /* hero section  */
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container-heading{
+    width: 60%;
+    font-size: 1.8rem;
+    color: rgb(225, 222, 222);
+    margin-top: 50px;
+}
+.container-heading p{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: rgb(151, 149, 149);
+}
+
+.find-gym{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.find-gym-button{
+    width: 40%;
+    height: 30px;
+    padding: 10px 10px 0px 10px;
+    background-color: rgb(117, 116, 116);
+    color: white;
+    border-radius: 30px;
+    font-size: 1.2rem;
+}
+.find-gym-button:hover{
+   cursor: pointer;
+   background-color: black;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.section-card{
+    width: 70%;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.card{
+    width: 32%;
+    height: 800px;
+    background-color: rgb(117, 116, 116);
+    color: white;
+    font-size: 1.2rem;
+}
+.card-img{
+    width: 100%;
+    height: 45%;
+    background-image: url(training_img/training1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.card h1{
+    margin-top: 15%;
+    font-size: 2rem;
+}
+.card p{
+    margin-top: 10%;
+    font-size: 1.5rem;
+    color: rgb(219, 214, 214);
+
+}
+#card-img2{
+    background-image: url(training_img/training2.jpg);
+}
+#card-img3{
+    background-image: url(training_img/training3.jpg) ;
+}
+
+/* footer section  */
+
+.footer{
+    width: 100vw;
+    background: #1a1919;
+    padding: 20px;
+
+ }
+ .footer .container{
+    width: 90vw;
+    padding: 60px;
+    margin: 0 auto;
+ }
+ .footer .container .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+ }
+ .footer .container .row .footer-links{
+    width: 260px;
+    margin: 0 20px;
+    margin-bottom: 30px;
+ }
+ .footer .container .row .footer-links div{
+   margin-bottom: 25px;
+   font-size: 1.1rem;
+   font-weight: 600;
+   color: white;
+ }
+ .footer .container .row .footer-links li{
+    list-style: none;
+    margin: 14px 0;
+}
+.footer .container .row .footer-links li a{
+   text-decoration: none;
+   color: #ccc;
+   font-size: 0.9rem;
+}
+.footer .container .row .footer-links li a:hover{   
+    color: #eeb12d;
+ }
+
+ .footer .container .row .footer-links .social-links{   
+    margin-top: 40px;
+ }
+ .footer .container .row .footer-links .social-links a{   
+   text-decoration: none;
+   color: #dfdede;
+   margin-right: 15px;
+   font-size: 1.2rem;
+}
+
+.copyright{
+    padding: 14px 0;
+    text-align: center;
+}
+.copyright p{
+    color: #ccc;
+    font-size: 0.9rem;
+}
+hr{
+    border: 1px solid #575656;
+}
+   
+#menu-icon{
+    font-size: 1.6rem;
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1150px) {
+    .container-heading{
+        font-size: 1.4rem;
+    }
+    .container-heading p{
+        font-size: 1.3rem;
+    }
+    .card{
+        height: 700px;
+    }
+
+    .card h1{
+        font-size: 1.7rem;
+    }
+    .card p{
+        font-size: 1.3rem;    
+    }
+    .find-gym-button{
+        font-size: 1.1rem;
+    } 
+}
+@media screen and (max-width:980px) {
+
+     .container-heading{
+        font-size: 1.3rem;
+    }
+    .container-heading p{
+        font-size: 1.1rem;
+    }
+    .section-card{
+        height: 2000px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 60%;
+        height: 600px;
+    }
+
+    .card h1{
+        font-size: 1.5rem;
+    }
+    .card p{
+        font-size: 1rem;    
+    }
+    .find-gym-button{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 780px) {
+    .hero .content_wrapper h3{
+        font-size: 1.5rem;
+     }
+     .hero .content_wrapper h1{
+         font-size: 3rem;
+     }
+    .burger-menu {
+      display: block;
+      color: white;
+    }
+    .nav-list{
+        display: none;
+      }
+    .button-cont {
+      display: none;
+    }
+    .join-btn{
+      width: 15%;
+    }
+  }
+@media screen and (max-width:670px) {
+
+    .container-heading{
+        font-size: 1rem;
+    }
+    .container-heading p{
+        font-size: 0.9rem;
+    }
+    .find-gym-button{
+        width: 50%;
+        font-size: 0.8rem;
+    }
+    .card{
+        width: 80%;
+    }
+    .join-btn{
+        display: none;
+      }
+}

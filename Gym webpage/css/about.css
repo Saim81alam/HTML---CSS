@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #282828;
+    overflow-x: hidden;
+}
+
+.cursure{
+    cursor: pointer;
+}
+.border{
+    border: none;
+}
+.border:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+/* navbar  */
+
+.nav-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  background-color: rgba(0, 0, 0, 0.187);
+  
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  font-size: large;
+  font-weight: 800;
+  align-content: flex-start;
+  color: white;
+}
+.nav-logo h3{
+  font-size: 2rem;
+}
+.nav-logo h3 span{
+  color: chocolate;
+}
+.nav-logo i{
+  font-size: 3rem;
+  color: chocolate;
+}
+
+.button-cont{
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.btn {
+  height: 20%;
+  background-color: #0000;
+  border: none;
+  outline: 0;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.btn a{
+  color: white;
+  text-decoration: none;
+}
+
+/* .btn:hover {
+  background-color: #039c60;
+} */
+.join-btn{
+  width: 10%;
+  background-color: #f79631;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.join-btn a{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+.join-btn:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.burger-menu {
+  font-size: 24px;
+  cursor: pointer;
+  position: relative;
+  display: none;
+}
+
+.dropdown-content {
+  display: block;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #0303037d;
+  color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+}
+
+.dropdown-content button {
+  display: block;
+  width: 100%;
+  padding: 10px 10px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+/* hero section  */
+
+
+.container{
+    width: 100%; 
+}
+
+
+
+.about-detail{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.heading{
+    width: 40%;
+    height: 60%;
+    font-size: 1.5rem;
+    margin-left: 150px;
+}
+
+
+.heading-img{
+    height: 60%;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.heading p{
+    font-size: 1.5rem;
+
+}
+.copyright{
+    width: 100%;
+    height: 20px;
+    padding: 14px 0;
+    text-align: center;
+    border-top: 2px solid rgb(255, 254, 254);
+}
+.copyright p{
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+#menu-icon{
+    font-size: 1.6rem;
+    display: none;
+    cursor: pointer;
+    color: white;
+    margin-right: 20px;
+}
+@media screen and (max-width:1160px) {
+    .nav-links a{
+        margin: 0 12px;
+        font-size: 0.8rem;
+    }
+    .join-btn a{
+        font-size: 0.8rem;
+    }
+    .nav-logo{
+        font-size: 1.5rem;
+    }
+    .nav-logo i{
+        font-size: 2rem;
+    }
+    .heading{
+        font-size:1.3rem ;
+    }
+    .heading p{
+        font-size: 1.3rem;
+    }
+    .heading-img{
+        justify-content: space-around;
+        margin: 0;
+    }
+
+}
+@media screen and (max-width: 780px) {
+    .hero .content_wrapper h3{
+        font-size: 1.5rem;
+     }
+     .hero .content_wrapper h1{
+         font-size: 3rem;
+     }
+    .burger-menu {
+      display: block;
+      color: white;
+    }
+    .nav-list{
+      display: none;
+    }
+    .button-cont {
+      display: none;
+    }
+    .join-btn{
+      width: 15%;
+    }
+  }
+@media screen and (max-width:730px) {
+    
+    .nav{
+        padding: 0 40px;
+    }
+    .nav .logo{
+        width: 30px;
+    }
+    .nav .logo h1{
+        font-size: 1.5rem;
+    }  
+    .about-detail{
+        height: 470px;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+    } 
+    .heading{
+        width: 60%;
+        height: 45%;
+        font-size:1rem ;
+        margin: 0;
+    }
+    .heading p{
+        font-size: 1.2rem;
+    
+    }
+    .heading-img{
+        width: 60%;
+        height: 40%;
+        margin: 0;
+    }
+    .copyright{       
+        text-align: center;
+    }
+    .copyright p{
+        color: #ffffff;
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 500px) { 
+    .join-btn{
+      display: none;
+    }
+  }

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+  background:linear-gradient(to right,#041308,#0b2a23);
+  font-family: 'Bodoni Moda','serif';
+  
+}
+
+.t-form {
+    width: 30%;
+    height: 70vh;
+    margin: 60px auto;
+    background:rgba(0, 0, 0, 0.285);
+    padding: 0 20px 20px 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .t-form h5{
+    font-size: 0.6rem;
+    color: #f79631;
+  }
+  .t-form h5 a{
+    color:#f79631;
+    text-decoration: none;
+  }
+  .f-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-left: -5%;
+
+  }
+  .f-logo i{
+    font-size: 4rem;
+    color: #f79631;
+  }
+  span{
+    color: #f79631;
+  }
+ 
+  label {
+    display: block;
+  }
+  .details{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+  input {
+    width: 90%;
+    padding: 10px;
+    background-color: rgba(203, 201, 201, 0.845);
+    border: 1px solid #b5b4b4;
+    border-radius: 10px;
+  }
+  
+  select {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(203, 201, 201, 0.845);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  .btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .btn div a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .login,.submit{
+    width: 40%;
+    background: #f79631;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 10px;
+  }
+  
+  .submit:hover {
+    background: #f79631;
+  }
+  .login:hover {
+    background: #f79631;
+  }
+
+
+  @media screen and (max-width:980px){
+    .f-logo{
+      font-size: 1.1rem;
+    }
+    .f-logo i{
+      font-size: 3rem;
+    }
+    .login,.submit{
+      font-size: 0.9rem;
+    }
+    .t-form{
+      width: 35%;
+    }
+
+  }
+  @media screen and (max-width:900px){
+    .t-form{
+      width: 35%;
+    }
+    
+  }
+  @media screen and (max-width:700px){
+    .t-form{
+      width: 50%;
+    }
+  }
+  @media screen and (max-width:600px){
+    .f-logo{
+      font-size: 1.2rem;
+    }
+    .f-logo i{
+      font-size: 3.5rem;
+    }
+    .t-form{
+      width: 55%;
+    } 
+    .login,.submit{
+      font-size: 1.1rem;
+      width: 40%;
+    }
+  }
+  @media screen  and (max-width:501px){
+    .t-form{
+      width: 65%;
+      height: 60vh;
+    }
+    
+  }
+
