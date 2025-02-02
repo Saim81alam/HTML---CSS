@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+  background:linear-gradient(to right,#041308,#0b2a23);
+  font-family: 'Bodoni Moda','serif';
+  /* font-size: 1rem; */
+  
+}
+
+.t-form {
+    max-width: 30%;
+    /* height: 50%; */
+    margin: 60px auto;
+    background:rgba(0, 0, 0, 0.285);
+    padding: 0 0 20px 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    color: white;
+  }
+  .t-form h5{
+    font-size: 0.6rem;
+    color: #3e8e41;
+  }
+  .t-form h5 a{
+    color:#3e8e41;
+    text-decoration: none;
+  }
+  .f-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    margin-left: -5%;
+
+  }
+  .f-logo i{
+    font-size: 4rem;
+    color: rgb(70, 223, 15);
+  }
+  span{
+    color: rgb(70, 223, 15);
+  }
+ 
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(203, 201, 201, 0.845);
+    border: 1px solid #b5b4b4;
+    border-radius: 10px;
+  }
+  
+  select {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(203, 201, 201, 0.845);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  .btn{
+    display: flex;
+    justify-content: space-around;
+  }
+  .btn div a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .login,.submit{
+    width: 25%;
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: larger;
+    border-radius: 10px;
+  }
+  
+  .submit:hover {
+    background: #3e8e41;
+  }
+  .login:hover {
+    background: #3e8e41;
+  }
