@@ -1,0 +1,58 @@
+body{
+    height: 800px;
+    background-image: url(amazon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-weight: 700;
+    color: rgb(235, 70, 29);
+    text-align: center;
+}
+div{
+    text-align: left;
+    margin-top: 10%;
+    padding: 10px;
+    height: 250px;
+    width: 300px;
+    background-color: rgba(0,0, 0, 0);
+    border: 2px solid chocolate;
+}
+form{
+    text-align: left;
+    padding-left: 10px;
+    line-height: 40px;
+    font-weight: bolder;
+    background-color: rgba(0,0, 0, 0);
+    border: 2px solid chocolate;
+    font-size: small;
+    color: white;
+}
+#phone{
+    height: 25px;
+    width: 170px;
+    margin-left: 40px;
+}
+#password{
+    height: 25px;
+    width: 170px;
+    margin-left: 12px;
+}
+#reset{
+    height: 25px;
+    width: 300px;
+    color: white;
+    background-color: chocolate;
+    font-size: large;
+    font-weight: bolder;
+}
+#register{
+    background-color: chocolate;
+}
+#login{
+  margin-left: 50px;background-color: chocolate;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
