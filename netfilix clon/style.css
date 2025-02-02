@@ -1,0 +1,313 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.Netflix{
+    height: 75vh;
+    width: 100%;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5),rgb(0, 0, 0)),url(image/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/* navbar */
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.border{
+    border: 0.01px solid transparent;
+}
+.border:hover{
+    border: 0.01px solid white;
+}
+.nav1{
+    height: 80%;
+    width: 15%;
+    background-image: url(image/Netflix_Logo_PMS.png);
+    background-size:cover;
+    background-position: center;
+    margin-left: 2vw
+}
+.nav2{
+    width: 40%;
+    height: 80%;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 2vw;
+}
+.sel-leng{
+    width: 30%;
+    height: 63%;
+    margin-top: 15px;
+    background-color: #00000088;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sel-leng select{
+    background-color: #00000000;
+    border: none;
+    color: white;
+}
+.sel-city{
+    width: 30%;
+    height: 63%;
+    margin-top: 15px;
+    background-color: #00000088;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sel-city select{
+    background-color: #00000000;
+    border: none;
+    color: white;
+}
+option{
+    background-color: black;
+}
+.Sign-in{
+    background-color: #e50914;
+    color: white;
+    padding: 8px 20px;
+    margin-top: 15px;
+    height: 60%;
+    width: 25%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* navebar End................  */
+
+
+
+
+/* main container */
+.main-container{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-conatiner-title{
+    color: white;
+    text-align: center;
+    width: 80vw;
+}
+.main-title{
+    font-size: 3em;
+    display: inline;
+}
+.sub-title{
+    font-size: 2em;
+    font-weight: 700;
+    margin-top:10px ;
+    margin-bottom: 30px;
+}
+.main-container p{
+    font-size: x-large;
+    font-weight: 400;
+}
+.main-email-container{
+    margin-top: 10px;
+    height: 8vh;
+    width: 55vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email-input{
+    height: 80%;
+    width: 35vw;
+    padding-left: 20px;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    font-size: 1em;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.email-input:hover{
+    color: white;
+}
+.start{
+    height: 80%;
+    width: 13vw;
+    font-size: 80%;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* second page of netflix clone */
+.netflix-content{
+    height: 50vh;
+    width: 100vw;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 10px solid rgba(22, 21, 21, 0.861);
+}
+
+.netflix-content p{
+    font-size: medium;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.netflix-content-text{
+    height: 60%;
+    width: 30%;
+    font-size: x-large;
+}
+.netflix-content-image{
+    height: 60%;
+    width: 30%;
+    background-size: contain;
+    background-position: center;
+    background-repeat:no-repeat ;
+}
+.image1{
+    background-image: url(image/tv1.png);
+}
+.image2{
+    background-image: url(image/mobile-0819.jpg);
+}
+.image3{
+    background-image: url(image/tv2.png);
+}
+.image4{
+    background-image: url(image/1234.png);
+}
+/* start footer  */
+
+/* details css */
+
+footer{
+    height: 60vh;
+    width: 100vw;
+    background-color: black;
+    border-top: 10px solid rgba(22, 21, 21, 0.861);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.foot-pannel1{
+    height: 20vh;
+    width: 90%;
+    margin-top: 3vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.foot-pannel1 a{
+    color: white;
+    text-decoration: none;
+}
+.details{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+ul a{
+    display: block;
+    text-decoration: none;
+}
+
+/* email input and start btn  */
+.foot-pannel2{
+    height: 20vh;
+    width: 80vw;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+.foot-pannel2 p{
+    width: 100vw;
+    text-align: center;
+    font-weight: 200;
+    font-size: x-large;
+}
+.footer-email-container{
+    margin-top: 10px;
+    height: 8vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.foot-email-input{
+    height: 80%;
+    width: 35vw;
+    padding-left: 20px;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    font-size: 1em;
+    border: 1px solid white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.foot-start-btn{
+    height: 83%;
+    width: 13vw;
+    font-size: 80%;
+    font-weight: 500;
+    background-color: red;
+    color: white;
+    border: 1px solid rgb(246, 244, 244);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -3px;
+    cursor: pointer;
+}
+/* end content  */
+.foot-end-content{
+    width: 100%;
+    background-color: rgba(32, 30, 30, 0.9);
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    text-align: center;
+    border-bottom: 10px solid rgba(32, 30, 30, 0.9);
+}
+
+/* media query */
+@media (max-width:770) {
+    .netflix-content{
+        background-color: #e50914;
+    }  
+}
