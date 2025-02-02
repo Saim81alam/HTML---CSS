@@ -1,0 +1,91 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 800px;
+    background-image: url(amazon.jpg);
+    background-size: cover;
+}
+input{
+    background-color: rgba(0,0,0,0);
+    border: 1px solid white;
+}
+input::placeholder{
+    position: absolute;
+    left: 10px;
+    color: rgb(247, 243, 243);
+}
+h1{
+    font-weight: 700;
+    color: chocolate;
+}
+div{
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    margin-top: 5%;
+    height: 470px;
+    width: 400px;
+    border: 3px solid rgb(249, 244, 241);
+    background-color: rgba(0,0,0,0);
+}
+form{
+    margin: 10px;
+    padding-left: 10px;
+    text-align: left;
+    line-height:40px;
+    font-weight: bolder;
+    border: 2px solid rgb(248, 243, 240) ;
+    color: chocolate;
+}
+#name{
+    margin-left: 80px;
+    height: 25px;
+    width: 200px;
+}
+#Father{
+    margin-left: 30px;
+    height: 25px;
+    width: 200px;
+}
+#user{
+    margin-left: 71px;
+    height: 25px;
+    width: 200px;
+}
+#password{
+    margin-left: 54px;
+    height: 25px;
+    width: 200px;
+}
+#phone{
+    margin-left: 52px;
+    height: 25px;
+    width: 200px;
+}
+#DOB{
+    margin-left: 77px;
+    height: 25px;
+    width: 200px;
+}
+#register{
+    height: 40px;
+    width: 350px;
+    background-color: chocolate;
+    color: white;
+    font-size: x-large;
+}
+#forgot{
+    background-color: chocolate;
+    color: white;
+}
+#login{
+    margin-left:150px ;
+    background-color: chocolate;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

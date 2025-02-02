@@ -1,0 +1,65 @@
+body{
+    height:800px;
+    text-align: center;
+    background-image: url(amazon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div{
+    position: absolute;
+    left: 200px;
+    padding: 10px;
+    margin-top: 10%;
+    height: 350px;
+    width: 300px;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid rgb(249, 246, 244);
+}
+h1{
+    color:chocolate;
+    font-weight: 700;
+}
+form{
+    height: 140px;
+    text-align: left;
+    color: chocolate;
+    padding-left: 10px;
+    line-height: 60px;
+    font-weight: bolder;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid rgb(247, 245, 244);
+}
+input{
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border: 1px solid white;
+}
+#userid{
+    height: 25px;
+    width: 200px;
+    margin-left: 16px;
+}
+#password{
+    height: 25px;
+    width: 200px;
+    margin-left: 0px;
+}
+#login{
+    height: 30px;
+    width: 275px;
+    color: white;
+    background-color: chocolate;
+}
+#register{
+    margin-left: 50px;
+    background-color: chocolate;
+    color: white;
+}
+#forgot{
+    background-color: chocolate;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
